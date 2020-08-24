@@ -3,28 +3,36 @@
 document.addEventListener('DOMContentLoaded', 
     function() {
 
-        const form = document.getElementById('employee_record');
+        let api = new EmployeeApi();
 
-        loadData(1).then(
-            function(employee_data) {
-                console.log(employee_data);
-                FormFiller.apply(employee_data);
-            }
-        )
+        api.requireLogin().then(
+            function( auth_data ) {
 
-        form.addEventListener('submit',
-            function( e ) {
+                let employee_id = auth_data.id;
 
-                e.preventDefault();
+                const form = document.getElementById('employee_record');
 
-                let api = new EmployeeApi();
-
-
-                alert('here');
-                return false;
+                loadData(employee_id).then(
+                    function(employee_data) {
+                        console.log(employee_data);
+                        FormFiller.apply(employee_data);
+                    }
+                )
+        
+                form.addEventListener('submit',
+                    function( e ) {
+        
+                        e.preventDefault();
+        
+                        let api = new EmployeeApi();
+        
+        
+                        alert('here');
+                        return false;
+                    }
+                );
             }
         );
-
     }
 );
 

@@ -2,12 +2,12 @@
 
 require_once( dirname(__FILE__) . DIRECTORY_SEPARATOR . 'DB.php');
 
-class EmployeeModel {
+class UserModel {
 
-    public function getById($id) {
+    public function getByUsername($username) {
         
         $db = DB::connect();
-        $result = $db->query('SELECT * FROM employees WHERE id=' . $id);
+        $result = $db->query('SELECT * FROM employees WHERE username=\'' . $username . '\'');
         
         if ( $result ) {
             $row = $result->fetchObject();

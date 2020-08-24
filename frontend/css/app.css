@@ -18,3 +18,10 @@ form input[type="text"] {
 div.instructions {
     padding: 10px;
 }
+
+#login_msg {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    display: none;
+}

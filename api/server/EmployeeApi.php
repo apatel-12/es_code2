@@ -2,7 +2,7 @@
 
 require_once( dirname(__FILE__) . '/../shared/EmployeeModel.php');
 
-class EmployeeApiServer {
+class EmployeeApi {
 
     public function employeeDataGet( $id ) {
 
