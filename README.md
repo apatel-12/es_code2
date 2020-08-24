@@ -8,7 +8,7 @@ They hired a "rock star" freelance together to begin building the application, b
 
 Ultimately, the application is supposed to be a robust management platform for their employees to manage their personal information, submit timesheets, and perform a host of other data management tasks. For now, though, all they want is a prototype of a few basic functions to demo to the CIO.
 
-They want us to fix this demo, and fast! It's Monday and they need to show something to the CIO on Friday. (Note: for the sake of this exercise, assume you have to fix what's here rather than doing something completely from the ground-up)
+They want us to fix this demo, and fast! It's Monday and they need to show something to the CIO on Friday. (Note: for the sake of this exercise, assume you have to fix what's here rather than doing something completely from the ground-up).
 
 ## The application needs to do the following for the sake of the demo:
 * Allow employees to login and edit their employee records
@@ -21,11 +21,11 @@ They want us to fix this demo, and fast! It's Monday and they need to show somet
   * Employee category (full time, part time, intern, contractor)
   * Allow administrators to login and edit any employee record
 
-In addition to the demo, the client wants a few things from us:
+## In addition to the demo, the client wants a few things from us:
 * They've asked for an audit of the code. They want to understand whether this new developer really has the code chops they claimed they did
 * If we make it through the demo, we have the opportunity to take the project over. They want to know what you'd recommend long term. 
 
-Your presentation should be:
+## Your presentation should be:
 
 * Show off your demo for the client as if you were showing it to them
 * Provide your overview of the original architecture, before you modified anything. How does it work/how's it set up? What's good? What's bad?
