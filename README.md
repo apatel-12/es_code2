@@ -6,7 +6,7 @@ One of our favorite clients has referred us to one of their colleagues who's hav
 
 They hired a "rock star" freelance together to begin building the application, but it's not going as well as they had hoped. The developer originally promised a working prototype in a week. It's now been a month and he's saying it'll take at least another week.
 
-Ultimately, the application is supposed to be a robust management platform for their employees to manage their personal information, submit timesheets, and perform a host of other data management tasks. For now, though, all they want is a prototype of a few basic functions to demo to the CIO.
+Ultimately, the application is supposed to be a robust management platform for their employees to manage their personal information, submit timesheets, and perform a host of other data management tasks. It will also need to link to other data sources/other internal applications at the organization. For now, though, all they want is a prototype of a few basic functions to demo to the CIO.
 
 They want us to fix this demo, and fast! It's Monday and they need to show something to the CIO on Friday. __For the sake of this exercise, assume you have to fix what's here rather than doing something completely from the ground-up.__
 
