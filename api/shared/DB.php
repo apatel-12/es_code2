@@ -8,7 +8,7 @@ class DB {
     public static function connect() {
 
         if ( !self::$Connection) {
-            self::$Connection = new PDO('mysql:host=localhost;dbname=' . self::$DB_name, 'sqluser', 'jimzSQL');
+            self::$Connection = new PDO('mysql:host=localhost;dbname=' . self::$DB_name, 'sqluser', 'sqlpass');
         }
 
         return self::$Connection;
