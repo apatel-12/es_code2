@@ -8,7 +8,8 @@ They hired a "rock star" freelance together to begin building the application, b
 
 Ultimately, the application is supposed to be a robust management platform for their employees to manage their personal information, submit timesheets, and perform a host of other data management tasks. For now, though, all they want is a prototype of a few basic functions to demo to the CIO.
 
-They want us to fix this demo, and fast! It's Monday and they need to show something to the CIO on Friday. (Note: for the sake of this exercise, assume you have to fix what's here rather than doing something completely from the ground-up).
+They want us to fix this demo, and fast! It's Monday and they need to show something to the CIO on Friday.
+__(Note: for the sake of this exercise, assume you have to fix what's here rather than doing something completely from the ground-up).__
 
 ## The application needs to do the following for the sake of the demo:
 * Allow employees to login and edit their employee records
