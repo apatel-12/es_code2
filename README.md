@@ -13,13 +13,13 @@ They want us to fix this demo, and fast! It's Monday and they need to show somet
 ## The application needs to do the following for the sake of the demo:
 * Allow employees to login and edit their employee records
 * An employee record should consist of:
-** First Name
-** Last Name
-** Date of Birth
-** Phone Number
-** Office number (i.e. the room in the building in which they work)
-** Employee category (full time, part time, intern, contractor)
-** Allow administrators to login and edit any employee record
+  * First Name
+  * Last Name
+  * Date of Birth
+  * Phone Number
+  * Office number (i.e. the room in the building in which they work)
+  * Employee category (full time, part time, intern, contractor)
+  * Allow administrators to login and edit any employee record
 
 In addition to the demo, the client wants a few things from us:
 * They've asked for an audit of the code. They want to understand whether this new developer really has the code chops they claimed they did
