@@ -22,7 +22,7 @@ They want us to fix this demo, and fast! It's Monday and we need to show somethi
   * Allow administrators to login and edit any employee record
 
 Note that there are also some bugs in the code and potential problems with the architecture - see if you can identify them.
-If you have difficulty, focus on your strengths. If your frontend chops are where you are most confident, show some things you would do with the interface. If your strengths lie on the backend, work with the architecture and the API. For full stack candidates, we'd like to see an approach taht covers both frontend and backend.
+If you have difficulty, focus on your strengths. If your frontend chops are where you are most confident, show some things you would do with the interface. If your strengths lie on the backend, work with the architecture and the API. For full stack candidates, we'd like to see an approach that covers both frontend and backend.
 
 ## In addition to the demo, the client wants a few things from us:
 * They've asked for an audit of the code. They want to understand whether this new developer really has the code chops they claimed they did
@@ -30,7 +30,7 @@ If you have difficulty, focus on your strengths. If your frontend chops are wher
 
 ## Your presentation:
 
-We expect candidates to spend 4-8 hoours on this exercise. You are welcome to spend less or more depending on what you feel is viable for the sake of the demo as outlined above. 
+We expect candidates to spend 4-8 hours on this exercise. You are welcome to spend less or more depending on what you feel is viable for the sake of the demo as outlined above. 
 
 You'll be meeting with our internal team to showcase how you've solved this problem. You'll start by reviewing it with a team of developers, then we'll invite other members of the team (project managers, designers, etc) to see your approach. You should be prepared to:
 
