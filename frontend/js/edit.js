@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded',
 
         api.requireLogin().then(
             function( auth_data ) {
-
+                alert(auth_data.id);
                 let employee_id = auth_data.id;
 
                 const form = document.getElementById('employee_record');

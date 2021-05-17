@@ -8,16 +8,16 @@
 <body>
 <div id="login_msg"></div>
 <div class="instructions">
-   Please Login:
+    Login Below
 </div>
 <form id="login_form" action="../emp_api.php" method="POST">
     <div>
         <label for="username">Username</label>
-        <input id="username" type="text" size="20" name="username" value="" required>
+        <input id="username" type="text" name="username" value="">
     </div>
     <div>
         <label for="password">Password</label>
-        <input id="password" size="20" type="password" name="password" value="" required>
+        <input id="password" type="password" name="password" value="">
     </div>    
     <div>
         <input type="Submit" value="Submit">

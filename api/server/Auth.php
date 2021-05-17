@@ -12,12 +12,23 @@ class Auth {
 
         $db_password = $user_data->password;
 
-        if ( password_verify($password, $db_password) ) {
+        if ($this->password_verify($password, $db_password) ) {
             return $user_data->id;
         }
 
         return false;
     }
+    //Added By AP
+    public function password_verify($user_password, $db_password)
+    {
+       
+        if($user_password==$db_password)
+        {
+            return true;
+        }
+        return false;
+    }
+
 
     public function doLogin( $username, $password ) {
 
